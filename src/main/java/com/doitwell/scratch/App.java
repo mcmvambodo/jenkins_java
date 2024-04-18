@@ -5,10 +5,11 @@ public class App{
 
 	public static void main(String[] args){
 
-	User user = new User("mcmvambodo@gmail.com","abcd1234");
-
-		System.out.println("Username: "+user.getUSername());
-		System.out.println("Password: "+user.getPassword());
+		if(args.length>1){
+			Integer result = User.sum(Integer.parseInt(args[0]),Integer.parseInt(args[1]));
+			System.out.println(String.format("%s + %s = %s", args[0], args[1],result));
+		}
+	
 
 	}
 }

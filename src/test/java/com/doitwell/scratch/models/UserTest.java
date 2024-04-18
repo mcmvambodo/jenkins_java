@@ -2,7 +2,6 @@ package com.doitwell.scratch.models;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import com.doitwell.scratch.models.User;
 
 public class UserTest {
     
