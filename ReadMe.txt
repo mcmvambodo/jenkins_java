@@ -9,7 +9,7 @@ java -cp target/classes com.doitwell.scratch.App 1 2
 java -cp ".;target/classes;./lib/hamcrest-core-1.3.jar;./lib/junit-4.13.2.jar" org.junit.runner.JUnitCore com.doitwell.scratch.models.UserTest
 
 #Java create executable jar:
-jar cfvm ../app.jar ../../scr/main/resources/MANIFEST.txt . ../../lib/
+jar cfvm ../app.jar ../../src/main/resources/MANIFEST.TXT . ../../lib/
 
 #Java run executable jar:
 java -jar app.jar 
